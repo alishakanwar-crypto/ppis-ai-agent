@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PPIS — Alisha AI</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; padding: 16px;">
+    <h2>PP International School — Alisha AI Assistant</h2>
+    <p>Tap the widget to talk.</p>
+
+    <script
+      src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"
+      defer
+      async
+    ></script>
+
+    <script>
+      window.addEventListener("load", () => {
+        window.vapiSDK.run({
+          apiKey: "74dbc2c2-b021-4ddf-a257-7005d5b2eda7",
+          assistant: "5f6e0bfa-225a-48c8-b6c7-b783b4828d32"
+        });
+      });
+    </script>
+  </body>
+</html>
